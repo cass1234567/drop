@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRAG AND DROP GAME</title>
+  <link rel="stylesheet" href="draganddrop.css">
+  <script src="draganddrop.js" defer></script>
+</head>
+<body>
+  <header><h1>DRAG AND DROP GAME</h1></header>
+  <div class="draggableContainer">
+    <div class="box" draggable="true" id="pizza">Pizza</div>
+    <div class="box" draggable="true" id="polo">Polo</div>
+    <div class="box" draggable="true" id="tumbler">Tumbler</div>
+    <div class="box" draggable="true" id="blue">Blue</div>
+    <div class="box" draggable="true" id="tv">TV</div>
+    <div class="box" draggable="true" id="phone">Phone</div>
+    <div class="box" draggable="true" id="book">Book</div>
+    <div class="box" draggable="true" id="chair">Chair</div>
+    <div class="box" draggable="true" id="shoes">Shoes</div>
+    <div class="box" draggable="true" id="toothbrush">Toothbrush</div>
+  </div>
+  <div class="droppableContainer">
+    <div class="droppable" data-draggable-id="pizza">Food</div>
+    <div class="droppable" data-draggable-id="polo">Clothing</div>
+    <div class="droppable" data-draggable-id="tumbler">Accessories</div>
+    <div class="droppable" data-draggable-id="blue">Color</div>
+    <div class="droppable" data-draggable-id="tv">Electronics</div>
+    <div class="droppable" data-draggable-id="phone">Gadgets</div>
+    <div class="droppable" data-draggable-id="book">Literature</div>
+    <div class="droppable" data-draggable-id="chair">Furniture</div>
+    <div class="droppable" data-draggable-id="shoes">Footwear</div>
+    <div class="droppable" data-draggable-id="toothbrush">hygiene</div>
+    <div class="droppable"><p id="remarks"></p></div>
+  </div>
+</body>
+</html>
